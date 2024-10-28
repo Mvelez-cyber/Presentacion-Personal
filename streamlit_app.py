@@ -14,17 +14,18 @@ st.title("👨‍💻 Mi Portafolio de Data Science")
 with st.sidebar:
     st.image("assets/images/profile.jpg", width=200)  # Ruta actualizada
     st.title("Información Personal")
-    st.write("📧 tu@email.com")
-    st.write("📱 Tu número de teléfono")
-    st.write("📍 Tu ubicación")
+    st.write("📧 mvelezsuarez04@email.com")
+    st.write("📱 +57 320 788 96 32")
+    st.write("📍 Envigado, Antioquia")
     st.write("🔗 [LinkedIn](tu_perfil_linkedin)")
-    st.write("🔗 [GitHub](tu_perfil_github)")
+    st.write("🔗 [GitHub](https://www.linkedin.com/in/miguel-velez-79703627a/)")
 
 # Sección principal
 st.header("Sobre mí")
 st.write("""
-    Aquí puedes escribir una breve introducción sobre ti, tu pasión por la ciencia de datos
-    y tu experiencia como estudiante en este campo.
+    Científico de Datos con una sólida base en diseño de experimentos y análisis estadístico avanzado, enfocado en aprovechar el potencial de los datos para tomar decisiones inteligentes. Tengo experiencia trabajando tanto con datos estructurados como no estructurados, desarrollando modelos de Machine Learning y generando insights valiosos. Además, soy ágil en metodologías de desarrollo como SCRUM y Kanban, lo que me permite adaptarme a diferentes equipos y proyectos.
+
+He creado pipelines en Azure Data Factory, filtrado y perfilado datos, y trabajado en proyectos de analítica y desarrollo de insights usando Python. También cuento con experiencia en programación orientada a objetos en C# y un dominio robusto de SQL para manejar bases de datos y consultas complejas.
 """)
 
 # Experiencia académica
@@ -46,8 +47,8 @@ st.header("🚀 Proyectos de Data Science")
 with st.expander("Proyecto 1"):
     col1, col2 = st.columns([2,1])
     with col1:
-        st.write("**Nombre del Proyecto**")
-        st.write("Descripción del proyecto")
+        st.write("**Clasificacion Dengue**")
+        st.write("El proyecto tenia como objetivo analizar datos de pacientes con dengue para predecir si un paciente tiene dengue con sintomas alarmantes para su estado de salud o no, facilitando la atencion de aquellos que presentaban sintomas de riesgo, usando un modelo de clasificación.")
     with col2:
         st.image("assets/images/project.jpg", caption="Proyecto 1")
     st.write("Tecnologías utilizadas: Python, Pandas, Scikit-learn, etc.")
@@ -60,7 +61,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.subheader("Lenguajes de Programación")
     st.write("- Python")
-    st.write("- R")
+    st.write("- C#")
     st.write("- SQL")
 
 with col2:
@@ -68,6 +69,8 @@ with col2:
     st.write("- Pandas")
     st.write("- Scikit-learn")
     st.write("- TensorFlow")
+    st.write("- Azure Data Factory")
+    st.write("- Streamlit")
 
 with col3:
     st.subheader("Soft Skills")

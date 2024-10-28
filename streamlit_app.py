@@ -49,7 +49,7 @@ with st.expander("Proyecto 1"):
         st.write("**Nombre del Proyecto**")
         st.write("Descripción del proyecto")
     with col2:
-        st.image("assets/images/project1.jpg", caption="Proyecto 1")
+        st.image("assets/images/project.jpg", caption="Proyecto 1")
     st.write("Tecnologías utilizadas: Python, Pandas, Scikit-learn, etc.")
     # Puedes añadir imágenes o gráficos de tus proyectos
     # st.image("proyecto1.jpg")

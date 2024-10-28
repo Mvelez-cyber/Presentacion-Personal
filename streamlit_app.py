@@ -17,8 +17,8 @@ with st.sidebar:
     st.write("📧 mvelezsuarez04@email.com")
     st.write("📱 +57 320 788 96 32")
     st.write("📍 Envigado, Antioquia")
-    st.write("🔗 [LinkedIn](tu_perfil_linkedin)")
-    st.write("🔗 [GitHub](https://www.linkedin.com/in/miguel-velez-79703627a/)")
+    st.write("🔗 [LinkedIn](https://www.linkedin.com/in/miguel-velez-79703627a/)")
+    st.write("🔗 [GitHub](https://github.com/Mvelez-cyber)")
 
 # Sección principal
 st.header("Sobre mí")

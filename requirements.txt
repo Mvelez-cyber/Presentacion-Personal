@@ -1,1 +1,2 @@
 streamlit
+pillow  # Para el manejo de imágenes

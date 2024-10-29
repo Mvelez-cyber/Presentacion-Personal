@@ -52,8 +52,15 @@ with st.expander("Proyecto 1"):
     with col2:
         st.image("assets/images/project.jpg", caption="Proyecto 1")
     st.write("Tecnologías utilizadas: Python, Pandas, Scikit-learn, etc.")
-    # Puedes añadir imágenes o gráficos de tus proyectos
-    # st.image("proyecto1.jpg")
+
+with st.expander("Proyecto 2"):
+    col1, col2 = st.columns([2,1])
+    with col1:
+        st.write("**Visión Artificial para imagenes Perro-Gato**")
+        st.write("Proyecto enfocado en el desarrollo de un modelo de visión artificial para la clasificación de imagenes de perros y gatos, un caso tipico de clasificacion y vision artificial.")
+    with col2:
+        st.image("assets/images/perro_gato.jpg", caption="Proyecto 2")
+    st.write("Tecnologías utilizadas: Python, TensorFlow, OpenCV, Deep Learning")
 
 # Habilidades
 st.header("🛠️ Habilidades Técnicas")

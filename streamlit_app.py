@@ -33,9 +33,8 @@ st.header("📚 Experiencia Académica")
 col1, col2 = st.columns(2)
 with col1:
     st.subheader("Educación")
-    st.write("**Universidad / Institución**")
-    st.write("Carrera - Año")
-    st.write("GPA / Logros destacados")
+    st.write("**Universidad Pontificia Bolivariana**")
+    st.write("Ingenieria en Ciencia De Datos / 2021 - 2024")
 
 with col2:
     st.subheader("Certificaciones")

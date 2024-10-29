@@ -39,8 +39,8 @@ with col1:
 
 with col2:
     st.subheader("Certificaciones")
-    st.write("- Exploracion y Analisis de datos con Python(https://learn.microsoft.com/api/achievements/share/es-es/MiguelAngelVelezSuarez-8011/HAA7F628?sharingId=D9A14AF1504BC3F1)")
-    st.write("- Google Analytics Certification(https://skillshop.credential.net/b846f20e-5f50-4acd-8a32-7e85bf778958)")
+    st.write("- [Exploracion y Analisis de datos con Python](https://learn.microsoft.com/api/achievements/share/es-es/MiguelAngelVelezSuarez-8011/HAA7F628?sharingId=D9A14AF1504BC3F1)")
+    st.write("- [Google Analytics Certification](https://skillshop.credential.net/b846f20e-5f50-4acd-8a32-7e85bf778958)")
 
 # Proyectos
 st.header("🚀 Proyectos de Data Science")

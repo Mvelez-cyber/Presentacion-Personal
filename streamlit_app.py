@@ -12,7 +12,7 @@ st.title("👨‍💻 Mi Portafolio de Data Science")
 
 # Barra lateral con información personal
 with st.sidebar:
-    st.image("assets/images/profile.jpg", width=200)  # Ruta actualizada
+    st.image("assets/images/profile.jpg", width=200)
     st.title("Información Personal")
     st.write("📧 mvelezsuarez04@email.com")
     st.write("📱 +57 320 788 96 32")

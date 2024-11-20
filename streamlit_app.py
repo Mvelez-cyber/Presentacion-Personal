@@ -70,6 +70,21 @@ with st.expander("Proyecto 3"):
         st.image("assets/images/project2.jpg", caption="Tuberia Desplegada")
     st.write("Tecnologías utilizadas: Python, Pandas, Regex, ETL, Tuberia, Analitica de Datos, Calidad de Datos")
 
+with st.expander("Proyecto 4"):
+    col1, col2 = st.columns([2,1])
+    with col1:
+        st.write("**Prediccion Energia Solar**")
+        st.write("El proyecto tenia como objetivo fundamental el reconocimiento de variables esenciales para predicción del comportamiento de la generación de energía solar, para esto se compra una base de datos con un histórico de 5 años del comportamiento en las coordenadas cercanas a la UPB, con el objetivo de predecir el comportamiento de las variables climáticas durante 7 unidades de tiempo (días) a futuro, pues esta es la periodicidad que se encontró al desarrollar un modelo SARIMAX con el objetivo de saber cuanta energía podíamos generar de la radiación solar emitida durante los siguientes 7 días, de esta forma se gestionaban posibles desabastecimientos por este medio o se podría estimar ingresos generados por la comercialización de la energía restante a EPM")
+    with col2:
+        st.iframe(
+            "https://www.canva.com/design/DAFgje-dpjA/EwNIhtXPUlkBNcMnKj33iA/edit?utm_content=DAFgje-dpjA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+            width="100%",
+            height=400,
+            frameborder=0,
+            allowfullscreen=True
+        )
+    st.write("Tecnologías utilizadas: Python, Pandas, Matplotlib, NLTK, SARIMAX, etc.")
+
 # Habilidades
 st.header("🛠️ Habilidades Técnicas")
 col1, col2, col3 = st.columns(3)

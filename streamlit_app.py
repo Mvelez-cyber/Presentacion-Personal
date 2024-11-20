@@ -113,6 +113,7 @@ with col1:
     st.write("- Python")
     st.write("- C#")
     st.write("- SQL")
+    st.write("- R")
 
 with col2:
     st.subheader("Herramientas y Frameworks")

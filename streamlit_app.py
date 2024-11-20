@@ -76,6 +76,9 @@ with st.expander("Proyecto 4"):
         st.write("**Prediccion Energia Solar**")
         st.write("El proyecto tenia como objetivo fundamental el reconocimiento de variables esenciales para predicción del comportamiento de la generación de energía solar, para esto se compra una base de datos con un histórico de 5 años del comportamiento en las coordenadas cercanas a la UPB, con el objetivo de predecir el comportamiento de las variables climáticas durante 7 unidades de tiempo (días) a futuro, pues esta es la periodicidad que se encontró al desarrollar un modelo SARIMAX con el objetivo de saber cuanta energía podíamos generar de la radiación solar emitida durante los siguientes 7 días, de esta forma se gestionaban posibles desabastecimientos por este medio o se podría estimar ingresos generados por la comercialización de la energía restante a EPM")
     with col2:
+        # Primero la imagen
+        st.image("assets/images/project3.jpg", caption="Parametrizacion de Modelo SARIMAX")
+        
         st.link_button(
             "📊 Ver Presentación en Canva",
             "https://www.canva.com/design/DAFgje-dpjA/EwNIhtXPUlkBNcMnKj33iA/edit?utm_content=DAFgje-dpjA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",  # Reemplaza con tu URL real de Canva

@@ -88,6 +88,23 @@ with st.expander("Proyecto 4"):
         )
     st.write("Tecnologías utilizadas: Python, Pandas, Matplotlib, SARIMAX, etc.")
 
+with st.expander("Proyecto 5"):
+    col1, col2 = st.columns([2,1])
+    with col1:
+        st.write("**Analisis de modelos Clustering por Diseño Factorial**")
+        st.write("El objetivo del proyecto es comparar por medio de diseño factorial los métodos de agrupación K-Means y BIRCH, métodos que son útiles para hallar perfiles, grupos o patrones dentro de un conjunto de datos, generalmente, donde existan más de dos variables. El punto es evaluar el desempeño de ambos en un mismo conjunto de datos y basado en diferentes niveles de los factores existentes para medir la eficiencia del modelo seleccionado, dando como conclusión que el desempeño en comparación con el otro modelo es significativo para la eficiencia, siendo estadísticamente similar en ambos casos.")
+    with col2:
+        st.image("assets/images/project4.jpg", caption="Analisis de modelos Clustering por Diseño Factorial")
+
+        st.link_button(
+            "📄 Ver Documento PDF",
+            "https://drive.google.com/file/d/19n2lTQtCTxcNx6upfV0Jc-3JWDwrIQEz/view?usp=sharing",
+            help="Haz clic para ver el documento completo del proyecto",
+            type="primary",
+            use_container_width=True
+        )
+    st.write("Tecnologías utilizadas: R, Python, Scikit-learn, Pandas, Diseño Factorial, Análisis Estadístico")
+
 # Habilidades
 st.header("🛠️ Habilidades Técnicas")
 col1, col2, col3 = st.columns(3)

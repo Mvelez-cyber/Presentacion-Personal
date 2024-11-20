@@ -86,7 +86,7 @@ with st.expander("Proyecto 4"):
             type="primary",
             use_container_width=True  # Esto hace que el botón use el ancho completo disponible
         )
-    st.write("Tecnologías utilizadas: Python, Pandas, Matplotlib, NLTK, SARIMAX, etc.")
+    st.write("Tecnologías utilizadas: Python, Pandas, Matplotlib, SARIMAX, etc.")
 
 # Habilidades
 st.header("🛠️ Habilidades Técnicas")

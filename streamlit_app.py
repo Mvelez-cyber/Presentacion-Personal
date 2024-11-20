@@ -49,7 +49,7 @@ with st.expander("Proyecto 1"):
         st.write("**Clasificacion Dengue**")
         st.write("El proyecto tenia como objetivo analizar datos de pacientes con dengue para predecir si un paciente tiene dengue con sintomas alarmantes para su estado de salud o no, facilitando la atencion de aquellos que presentaban sintomas de riesgo, usando un modelo de clasificación.")
     with col2:
-        st.image("assets/images/project.jpg", caption="Proyecto 1")
+        st.image("assets/images/project.jpg", caption="Evaluacion de Hiperparametros y desempeño basado en diferentes metricas")
     st.write("Tecnologías utilizadas: Python, Pandas, Scikit-learn, etc.")
 
 with st.expander("Proyecto 2"):
@@ -58,8 +58,17 @@ with st.expander("Proyecto 2"):
         st.write("**Visión Artificial para imagenes Perro-Gato**")
         st.write("Proyecto enfocado en el desarrollo de un modelo de visión artificial para la clasificación de imagenes de perros y gatos, un caso tipico de clasificacion y vision artificial.")
     with col2:
-        st.image("assets/images/perro_gato.jpg", caption="Proyecto 2")
+        st.image("assets/images/perro_gato.jpg", caption="Imagen de referencia")
     st.write("Tecnologías utilizadas: Python, TensorFlow, OpenCV, Deep Learning")
+
+with st.expander("Proyecto 3"):
+    col1, col2 = st.columns([2,1])
+    with col1:
+        st.write("**Gestion de Inventario Antioquia Ventas**")
+        st.write("La persona encargada de logística tenia una necesidad de datos pues al exportar los inventarios y el saldo de sus productos estos estaban desorganizados y no seguían reglas de calidad de datos claras, por lo que se puso en contacto conmigo y me pidió crear algo que le permitiera procesar datos de forma eficaz y organizara su inventario de forma dinamica, por lo que desarrollé una Tuberia de datos que tomara cadenas de texto basadas en expresiones regulares y estableciera columnas y registros basados en el texto analisado por la expresion, dando como resultado datos limpios y analizables para la gestion de inventarios")
+    with col2:
+        st.image("assets/images/project2.jpg", caption="Tuberia Desplegada")
+    st.write("Tecnologías utilizadas: Python, Pandas, Regex, ETL, Tuberia, Analitica de Datos, Calidad de Datos")
 
 # Habilidades
 st.header("🛠️ Habilidades Técnicas")
@@ -83,14 +92,3 @@ with col3:
     st.write("- Trabajo en equipo")
     st.write("- Resolución de problemas")
     st.write("- Comunicación efectiva")
-
-# Mi experiencia como estudiante
-st.header("📝 Mi Viaje en Data Science")
-st.write("""
-    Aquí puedes compartir tu experiencia personal como estudiante de Data Science.
-    Habla sobre:
-    - Desafíos que has enfrentado
-    - Lecciones aprendidas
-    - Consejos para otros estudiantes
-    - Tu visión del futuro en este campo
-""")

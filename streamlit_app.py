@@ -14,7 +14,7 @@ st.title("👨‍💻 Mi Portafolio de Data Science")
 with st.sidebar:
     st.image("assets/images/profile.jpg", width=200)
     st.title("Información Personal")
-    st.write("📧 mvelezsuarez04@email.com")
+    st.write("📧 mvelezsuarez04@gmail.com")
     st.write("📱 +57 320 788 96 32")
     st.write("📍 Envigado, Antioquia")
     st.write("🔗 [LinkedIn](https://www.linkedin.com/in/miguel-velez-79703627a/)")
